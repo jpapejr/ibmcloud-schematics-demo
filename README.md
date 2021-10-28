@@ -1,6 +1,6 @@
 # Multitier VPC
 
-This module creates a Multitier VPC in a single region in 3 zones. It will create an example ACL for each subnet tier and can optionally create public gateways for each zone. 
+This module creates a simple VPC environment in a single region in 1 zone. It will create an example ACL for each subnet tier and can optionally create public gateways for each zone. 
 
 ![Multitier VPC](./.docs/multitier.png)
 
@@ -36,7 +36,7 @@ Use IBM Cloud™ Virtual Private Cloud to create your own space in IBM Cloud™.
 
 ## Subnets
 
-This module creates three tiers of any of number of subnets in each of up to 3 geographic zones in the region where the VPC was created. By default, it creates one subnet in each zone for each tier, for a total of 9 subnets.
+This module creates a single tier of any of number of subnets in a single geographic zone in the region where the VPC was created. 
 
 Each subnet consists of a specified IP address range (CIDR block). Subnets are bound to a single zone, and they cannot span multiple zones or regions. Subnets in the same VPC are connected to each other. <sup>[3](https://cloud.ibm.com/docs/vpc?topic=vpc-about-networking-for-vpc#subnets-in-the-vpc)</sup>
 

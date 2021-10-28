@@ -123,6 +123,6 @@ variable "image" {
 variable "profile" {
   description = "Instance profile to use, e.g. bx2.2x8" 
   type        = string
-  default     = "bx2.2x8"
+  default     = "bx2-2x8"
 }
 ##############################################################################

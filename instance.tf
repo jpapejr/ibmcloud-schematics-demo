@@ -1,6 +1,6 @@
 resource "ibm_is_ssh_key" "sshkey" {
   name       = "mykey"
-  public_key = "${var.publickey}"
+  public_key = var.publickey
 }
 
 
