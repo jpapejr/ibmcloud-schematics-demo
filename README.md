@@ -2,7 +2,6 @@
 
 This module creates a simple VPC environment in a single region in 1 zone. It will create an example ACL for each subnet tier and can optionally create public gateways for each zone. 
 
-![Multitier VPC](./.docs/multitier.png)
 
 ## Table of Contents
 
